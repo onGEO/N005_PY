@@ -9,5 +9,5 @@ arcpy.env.workspace = "D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gd
 fcList = arcpy.ListFeatureClasses("")
 for fc in fcList:
     desc = arcpy.Describe(fc)
-    print "Layer name: {}".format(desc.name)
-    print "Layer data source: {}".format(desc.catalogPath)
+    print "Layer name: {0}".format(desc.name)
+    print "Layer data source: {0}".format(desc.catalogPath)
