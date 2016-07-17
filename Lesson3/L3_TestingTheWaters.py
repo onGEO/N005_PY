@@ -1,3 +1,7 @@
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 3 - Testing the Waters
+# -------------#------------------#
 # Variables
 var = 1
 print var
