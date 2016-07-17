@@ -1,4 +1,7 @@
-## LayerAndSourcePrint.py ##
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 4 - Layer and Source Print
+# -------------#------------------#
 # This script loops through a geodatabase and
 # prints the Name and Data Source of each Layer
 import arcpy
