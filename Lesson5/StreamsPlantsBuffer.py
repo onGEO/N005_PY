@@ -1,4 +1,8 @@
-# StreamsPlantsBuffer.py
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 5 - Streams and Plants Buffer
+# -------------#------------------#
+
 import arcpy
 # Set geoprocessing environments
 arcpy.env.workspace = "D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb"
