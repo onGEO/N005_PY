@@ -1,4 +1,7 @@
-# RenameMultipleFields.py
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 5 - Rename Multiple Fields
+# -------------#------------------#
 ## Section 1. ##
 import arcpy
 # Set workspace environment to geodatabase
