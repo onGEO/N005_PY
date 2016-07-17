@@ -1,3 +1,7 @@
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 2 - Import ArcPy
+# -------------#------------------#
 # Importing ArcPy
 #
 import arcpy
