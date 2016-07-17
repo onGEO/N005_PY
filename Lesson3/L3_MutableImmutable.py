@@ -1,3 +1,7 @@
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 3 - Mutable / Immutable
+# -------------#------------------#
 '''Only mutable objects support methods that change the object in place,
 such as reassignment of a sequence slice, which will work for lists,
 but raise an error for tuples and strings.
