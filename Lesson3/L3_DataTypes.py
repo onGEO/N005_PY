@@ -1,3 +1,7 @@
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 3 - Data Types
+# -------------#------------------#
 # Numbers
 a = 7
 b = 7.0
