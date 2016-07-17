@@ -1,4 +1,7 @@
-# PrintSpatialReference.py
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 2 - Print Spatial Reference
+# -------------#------------------#
 
 # import modules
 import arcpy
