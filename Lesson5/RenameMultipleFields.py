@@ -1,7 +1,4 @@
-#--------------#------------------#
-# onGEO@MSU - Python Geoprocessing
-# Lesson 5 - Rename Multiple Fields
-# -------------#------------------#
+# RenameMultipleFields.py
 ## Section 1. ##
 import arcpy
 # Set workspace environment to geodatabase
@@ -22,18 +19,24 @@ for fc in fcList:  # loop through feature classes
         ## Check if the field name equals one of the expected truncated versions. If so, run AlterField_Management and change the field name to something that makes sense.
             if field.name == 'ROUTE_NUMB':
                 arcpy.AlterField_management(fc, field.name, "ROUTE_NUMBER", "ROUTE_NUMBER")
-                print "- Altered field name: {0}".format(field.name)
+                print "- Altered field name: {0} to {1}".format(field.name, "ROUTE_NUMBER")
             elif field.name == 'Shape_Leng':
-                arcpy.AlterField_management(fc, field.name, "Shape_Length_2", "Shape_Length_2")
-                print "- Altered field name: {0}".format(field.name)
+                arcpy.AlterField_management(fc, field.name, "Road_Length", "Road_Length")
+                print "- Altered field name: {0} to {1}".format(field.name, "Road_Length")
+            elif field.name == 'ROUTE_TYPE':
+                arcpy.AlterField_management(fc, field.name, "ROUTE_TYPE_A", "ROUTE_TYPE_A")
+                print "- Altered field name: {0} to {1}".format(field.name, "ROUTE_TYPE_A")
             elif field.name == 'ROUTE_TY_1':
-                arcpy.AlterField_management(fc, field.name, "ROUTE_TYPE_2", "ROUTE_TYPE_2")
-                print "- Altered field name: {0}".format(field.name)
+                arcpy.AlterField_management(fc, field.name, "ROUTE_TYPE_B", "ROUTE_TYPE_B")
+                print "- Altered field name: {0} to {1}".format(field.name, "ROUTE_TYPE_B")
             elif field.name == 'ROUTE_TY_2':
-                arcpy.AlterField_management(fc, field.name, "ROUTE_TYPE_3", "ROUTE_TYPE_3")
-                print "- Altered field name: {0}".format(field.name)
+                arcpy.AlterField_management(fc, field.name, "ROUTE_TYPE_C", "ROUTE_TYPE_C")
+                print "- Altered field name: {0} to {1}".format(field.name, "ROUTE_TYPE_C")
             elif field.name == 'DISTANCE_1':
-                arcpy.AlterField_management(fc, field.name, "DISTANCE_2", "DISTANCE_2")
-                print "- Altered field name: {0}".format(field.name)
+                arcpy.AlterField_management(fc, field.name, "DISTANCE_DRIVEN", "DISTANCE_DRIVEN")
+                print "- Altered field name: {0} to {1}".format(field.name, "DISTANCE_DRIVEN")
             else:
                 print "Did not Alter Field Name: {0}".format(field.name)
+    else:
+        print "We are not using Feature Class: {0}".format(fc)
+print "Script Complete"
