@@ -1,4 +1,7 @@
-# Name: PrintFCnamesToFile.py
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 4 - Print Feature Class Names to File
+# -------------#------------------#
 # Description: Loops through a list of Feature Classes
 # and saves Layer names to a text file
 
