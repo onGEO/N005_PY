@@ -1,4 +1,7 @@
-### Name: DuplicateInvasives.py ###
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 4 - Duplicate Invasives
+# -------------#------------------#
 # Description: Create 3 empty Feature Classes
 # using the Invasive_plants layer as a template
 # for the purpose of testing out new data
