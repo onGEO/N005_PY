@@ -5,7 +5,7 @@
 ## Section 1. ##
 import arcpy
 # Set workspace environment to geodatabase
-arcpy.env.workspace = r"D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb"
+arcpy.env.workspace = "D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb"
 
 ## Section 2. ##
 # Loop through feature classes
