@@ -2,24 +2,34 @@
 # onGEO@MSU - Python Geoprocessing
 # Lesson 6 - sys.argv User Input
 # -------------#------------------#
+# sys_argvUserInput.py
+# Description: A short script which demonstrates dynamic user input with ArcPy
+# Arguments: 
+# D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb 
+# Streams  
+# D:\Classes\ONGEO\N005_PY\Course_Materials\Results
 
+# Section 1
 # import modules
 import os
 import sys
 import arcpy
 arcpy.env.overwriteOutput = True
 
+# Section 2
 # Set the input workspace, get the feature class name to copy
-# and the output location.
+# and the output location. 
 arcpy.env.workspace = sys.argv[1]
 in_featureclass = sys.argv[2]
 out_workspace = sys.argv[3]
 
+# Section 3. 
 in_fc = os.path.join(arcpy.env.workspace, in_featureclass)
+print "We are copying the {0} layer to the {1} directory".format(os.path.basename(in_fc),os.path.basename(out_workspace))
 
-print "We are copying {}".format(in_fc)
-
+# Section 4.
 # Copy feature class to output location
-arcpy.CopyFeatures_management(in_fc, out_workspace)
+arcpy.CopyFeatures_management(in_fc, os.path.join(out_workspace, in_featureclass))
 
-print "Successfully copied Feature Class '{}' to directory {}".format(os.path.basename(in_fc),out_workspace)
+print "..."
+print "Successfully copied the {0} layer to the {1} directory".format(os.path.basename(in_fc),os.path.basename(out_workspace))
