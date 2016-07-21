@@ -2,8 +2,6 @@
 # onGEO@MSU - Python Geoprocessing
 # Lesson 6 - Listing Fields
 # -------------#------------------#
-
-# ListingFields.py
 # Arguments: 
 # D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb\Lakes
  
