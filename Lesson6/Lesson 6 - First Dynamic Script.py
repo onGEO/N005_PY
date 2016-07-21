@@ -4,7 +4,6 @@
 # -------------#------------------#
 
 # Description: A short script which demonstrates dynamic user input with ArcPy
-# Description: A short script which demonstrates dynamic user input with ArcPy
 # Arguments: 
 # D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb 
 # Roads  
