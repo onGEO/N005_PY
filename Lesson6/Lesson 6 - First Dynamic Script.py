@@ -25,6 +25,6 @@ print "We are copying the {0} layer to the {1} directory" .format(os.path.basena
 
 # Section 4.
 # Copy feature class to output location
-arcpy.CopyFeatures_management(in_fc, out_workspace)
+arcpy.CopyFeatures_management(in_fc, os.path.join(out_workspace, in_featureclass))
 print "..."
 print "Successfully copied the {0} layer to the {1} directory".format(os.path.basename(in_fc),os.path.basename(out_workspace))
