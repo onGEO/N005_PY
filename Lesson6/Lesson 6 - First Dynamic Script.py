@@ -6,7 +6,7 @@
 # Description: A short script which demonstrates dynamic user input with ArcPy
 # Arguments: 
 # D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb 
-# Roads  
+# Lakes  
 # D:\Classes\ONGEO\N005_PY\Course_Materials\Results
 
 # Section 1.
@@ -23,10 +23,10 @@ out_workspace = arcpy.GetParameterAsText(2)
 
 # Section 3.
 in_fc = os.path.join(arcpy.env.workspace, in_featureclass)
-print "We are copying {}".format(in_fc)
+print "We are copying {0}".format(in_fc)
 
 # Section 4.
 # Copy feature class to output location
 arcpy.CopyFeatures_management(in_fc, out_workspace)
 
-print "Successfully copied Feature Class '{}' to directory {}".format(os.path.basename(in_fc),out_workspace)
+print "Successfully copied Feature Class '{0}' to directory {1}".format(os.path.basename(in_fc),out_workspace)
