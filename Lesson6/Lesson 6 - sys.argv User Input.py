@@ -3,6 +3,7 @@
 # Lesson 6 - sys.argv User Input
 # -------------#------------------#
 
+# import modules
 import os
 import sys
 import arcpy
