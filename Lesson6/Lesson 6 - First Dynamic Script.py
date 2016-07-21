@@ -7,7 +7,7 @@
 # Arguments: 
 # D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb 
 # Roads  
-# D:\Classes\ONGEO\N005_PY\Results
+# D:\Classes\ONGEO\N005_PY\Course_Materials\Results
 
 # Section 1.
 import os
