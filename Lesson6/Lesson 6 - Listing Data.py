@@ -1,6 +1,6 @@
 #--------------#------------------#
 # onGEO@MSU - Python Geoprocessing
-# Lesson 6 - GetParameterAsText User Input
+# Lesson 6 - Listing Data
 # -------------#------------------#
 
 # import modules
