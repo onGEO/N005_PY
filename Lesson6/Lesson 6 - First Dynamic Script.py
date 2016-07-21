@@ -1,4 +1,8 @@
-# firstDynamicScript.py
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 6 - First Dynamic Script
+# -------------#------------------#
+
 # Description: A short script which demonstrates dynamic user input with ArcPy
 #
 # Section 1.
