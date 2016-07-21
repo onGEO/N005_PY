@@ -1,3 +1,8 @@
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 6 - sys.argv User Input
+# -------------#------------------#
+
 import os
 import sys
 import arcpy
