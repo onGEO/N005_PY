@@ -1,4 +1,7 @@
-## alterTreeTable.py
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 6 - Alter Tree Table
+# -------------#------------------#
 #
 # first import ArcPy and set the workspace
 import arcpy
