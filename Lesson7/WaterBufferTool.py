@@ -2,13 +2,12 @@
 # onGEO@MSU - Python Geoprocessing
 # Lesson 7 - Water Buffer Tool
 # -------------#------------------#
-#
+
+# import modules
 import arcpy
-arcpy.env.workspace = "D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb"
-arcpy.env.overwriteOutput = True
 
 # Create List of feature classes to Buffer
-bufferList = ["Streams", "Lakes"]
+bufferList = ["Lakes", "Streams"]
 
 # Initialize a new Python list of feature classes to be Unioned together
 unionList = []
