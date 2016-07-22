@@ -12,7 +12,7 @@ arcpy.env.overwriteOutput = True
 
 # Section 2
 # Create a new table named Trees
-arcpy.CreateTable_management("D:\Classes\ONGEO\N005_PY\Course_Materials\Data\SanJuan.gdb", "Trees")
+arcpy.CreateTable_management(arcpy.env.workspace, "Trees")
 
 # Add new attribute fields to the new table
 # Add a text field named TREE_NAME
