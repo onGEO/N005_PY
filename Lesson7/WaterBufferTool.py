@@ -1,3 +1,8 @@
+#--------------#------------------#
+# onGEO@MSU - Python Geoprocessing
+# Lesson 7 - Water Buffer Tool
+# -------------#------------------#
+#
 import arcpy
 # Create List of feature classes to Buffer
 bufferList = ["Lakes", "Streams"]
