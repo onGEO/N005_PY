@@ -1,6 +1,6 @@
 #--------------#------------------#
 # onGEO@MSU - Python Geoprocessing
-# Lesson 6 - Alter Tree Table
+# Lesson 7 - Alter Tree Table
 # -------------#------------------#
 #
 # first import ArcPy and set the workspace
